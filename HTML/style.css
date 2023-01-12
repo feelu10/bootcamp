@@ -1,0 +1,46 @@
+* {
+    margin:0px;
+    padding: 0;
+    font-family:tahoma;
+}
+.container-fluid{
+    background-color: rgb(70, 130, 180);
+    color: white
+}
+.img-fluid{
+    width: 500px;
+}
+h1{
+    color: rgb(70, 130, 180);;
+}
+#pastor{
+    width:300px;
+    margin-left: 80px
+}
+h3{
+    color: rgb(70, 130, 180);;
+    margin-right: 220px;
+}
+#save{
+    color: rgb(255, 0, 216);
+    margin-right: 300px;
+}
+#save1{
+    color: rgb(255, 0, 216);
+    text-align:center
+}
+#ul{
+    display:inline-block;
+            margin-top: 0px;
+                text-align: center;
+                list-style-position: inside
+}
+.cross1{
+    float: left; width: 120px; margin-left: 22%;
+}
+.cross2{
+    float: right; width: 120px; margin-right: 22%;
+}
+#para{
+    color:rgb(160, 160, 160);
+}

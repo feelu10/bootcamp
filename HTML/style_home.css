@@ -1,0 +1,101 @@
+#footer{text-align:center;
+    list-style-position: inside;  
+    border: dotted;
+    margin: auto;
+    border: 50%;
+  }
+  .carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+    .gray-text {
+    color: gray;
+                }
+    .gray-text:hover {
+      color: rgb(181, 96, 11);
+    }
+    a:hover {
+      text-decoration: underline;
+      color: rgb(239, 85, 8)!important;
+    }
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table,
+th,
+td {
+  border: 1px solid gray;
+}
+
+.top-heading {
+  background-color: rgb(255, 200, 99);
+}
+
+.sub-heading {
+  background-color: rgb(255, 229, 182);
+}
+
+#sub-heading {
+  background-color: rgb(250, 238, 216);
+}
+.food-icon {
+  height: 30px;
+}
+
+.food-row:hover {
+  background-color: orange;
+}
+
+
+
+
+h3 {
+    text-align: center;
+}
+
+ul {
+    margin: 0 10%;
+    padding: 10px 0px 10px 100px;
+    display:inline-block;
+
+}
+
+ul li {
+    list-style: none;
+    padding: 10px 20px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(160, 19, 19);
+    position: relative;
+
+}
+
+ul li a::before {
+    content: "";
+    width: 0px;
+    height: 10px;
+    background: rgb(59, 128, 181);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: .7s;
+}
+
+ul li a:hover::before {
+    width: 50%;
+    transform: translateX(100%);
+}
+.nav{
+  color: rgb(255, 98, 20);
+}
+.nav-item:hover{
+  background-color: rgb(105, 198, 19);
+}

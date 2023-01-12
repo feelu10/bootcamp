@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ISCP Employee Registration Form</title>
+    </head>
+
+    <body>
+        <h1><b>ISCP Employee Registration Form</b></h1>
+        <img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Seal_of_the_International_State_College_of_the_Philippines.png" alt="ISCP Logo"><br />
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aCUhfPAyDHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2>Basic information</h2>
+            <form>
+                <label>Firstname: </label>
+                <input type="text" placeholder="ex. Juan" name="firstName" /><br />
+                <label>LastName: </label>
+                <input type="text" placeholder="ex. Dela Cruz" name="lastName" /><br />
+                <label>Place of birth: </label>
+                <input type="text" placeholder="ex. Santo Tomas, Davao del Norte" name="Place of birth" /><br />
+                <label>Birthdate: </label>
+                <input type="date" value="birthdate" />
+            </form>
+            <form>
+            <label>Civil Status: </label>
+                <select name="dropdown">
+                    <option selected disabled>~Select one~</option>
+                    <option value="Single">Single</option>
+                    <option value="Married">Married</option>
+                    <option value="Separated">Separated</option>
+                    <option value="Widowed">Widowed</option>
+                </select>
+            </form>
+            <form>
+                <label>Gender: </label>
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <input type="radio" name="gender" value="Other"> Other
+            </form>
+            </form>
+            <form>
+                <label>Mother's Maiden Name: </label>
+                <input type="text" placeholder="ex. Solis"> <br />
+                <label>father's Name: </label>
+                <input type="text" placeholder="ex. Juan"> 
+            </form>
+            <h1>Contact Information</h1>
+            <label>Email address: </label>
+            <input type="email" placeholder="ex. juandelacruz@email.com"><br />
+            <label>Contact number(mobile)</label>
+            <input type="number" placeholder="+63 912 456 7890"><br />
+            <label>Contact number(telephone)</label>
+            <input type="number" placeholder="02-8123-4567">
+            <h1>Address</h1>
+            <label>Street Number</label>
+            <input type="number" placeholder="feeder road 2"><br />
+            <label>Street Name</label>
+            <input type="text" placeholder="Sampaguita street"><br />
+            <label>Barangay</label>
+            <input type="text" placeholder="Tondo"><br />
+            <label>City/Town</label>
+            <input type="text" placeholder="Manila"><br />
+            <label>Province</label>
+            <input type="text" placeholder="Metro Manila"><br />
+            <label>full address</label>
+            <input type="text" placeholder="Feeder road 2, Sampaguita street, Tondo, Manila, Metro Manila" style="width: 600px">
+            <h1>Government information</h1>
+            <label>SSS ID</label>
+            <input type="text" placeholder="SSS ID number..."><br />
+            <label>Pag-ibig ID</label>
+            <input type="text" placeholder="Pag-ibig ID number..."><br />
+            <label>PhilHealth ID</label>
+            <input type="text" placeholder="PhilHealth ID number..."><br />
+            <label>Upload 2x2: </label>
+            <input type="file" name="fileupload" accept="image/*" />
+            <h1>Account information</h1>
+            <label>Username: </label>
+            <input type="text" placeholder="Give at least 6 lettters" name="username" ><br />
+            <label>Password: </label>
+            <input type="password" placeholder="At least 1 uppercase and 1 number" name="password" style="width: 210px"><br />
+            <label>Confirm password: </label>
+            <input type="password" placeholder="Re-type Password" name="Confirm password" style="width: 210px"><br />
+            <label>Upload Profile image</label>
+            <input type="file" name="fileupload" accept="image/*" />
+            <h1>Have you experienced any of the following in the last 30 days?</h1>
+            <form>
+                <input type="checkbox" name="Coughing" value="on"> Coughing<br />
+                <input type="checkbox" name="Fever" value="on"> Fever<br />
+                <input type="checkbox" name="Headache" value="on"> Headache<br />
+                <input type="checkbox" name="Common cold" value="on"> Common cold<br />
+                <input type="checkbox" name="Body ache" value="on"> Body ache<br />
+                <input type="checkbox" name="Sore throat" value="on"> Sore throat<br />
+                <input type="checkbox" name="Tiredness" value="on"> Tiredness<br />
+                <input type="checkbox" name="Loss of smell
+                " value="on"> Loss of smell<br />
+                <input type="checkbox" name="None of the above" value="on"> None of the above<br />
+           </form>
+            <form>
+                <h1>Give a short description about yourself.: </h1>/<br />
+                <textarea rows="5" cols="50" name="description">
+                    I am to be a full stack developer soon...
+                </textarea>
+            </form>
+</html>

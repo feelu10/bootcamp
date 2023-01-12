@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style_home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid gray;
+      }
+
+      .top-heading {
+        background-color: rgb(255, 200, 99);
+      }
+
+      .sub-heading {
+        background-color: rgb(255, 229, 182);
+      }
+
+      #sub-heading {
+        background-color: rgb(250, 238, 216);
+      }
+      .food-icon {
+        height: 30px;
+      }
+
+      .food-row:hover {
+        background-color: orange;
+      }
+      #footer{text-align:center;
+        list-style-position: inside;  
+        border: dotted;
+        margin: auto;
+        border: 50%;
+      }
+      .nav{
+        color: rgb(255, 98, 20);
+      }
+      .nav-item:hover{
+        background-color: rgb(105, 198, 19);
+      }
+      </style>
+    </style>
+    <title>Bear Burger's - Order</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="../HTML/IMG/Resta.png" style="width: 50px"><a>
+                      <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                      >
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="burgers_order.html">Order</a>
+                          </li>
+                          
+                          <li class="nav-item">
+                            <a
+                              class="nav-link disabled"
+                              href="#"
+                              tabindex="-1"
+                              aria-disabled="true"
+                              >Shop</a
+                            >
+                          </li>
+                        </ul>
+                        <form class="d-flex">
+                          <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Search"
+                            aria-label="Search"
+                          />
+                          <button class="btn btn-outline-success" type="submit">
+                            Search
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+               </div> 
+    <div class="container mt-5 pb-5">
+      <h1 class="display-1">Order Here!</h1>
+      <div class="row">
+        <div class="col-lg-8">
+          <table class="table table-border">
+            <tr class="text-center top-heading">
+              <th>Icons</th>
+              <th>Item Name</th>
+              <th>Price</th>
+            </tr>
+            <tr class="sub-heading">
+              <th colspan="3" class="text-center">Meals</th>
+            </tr>
+            <tr class="food-row">
+              <td><img src="burger.png" class="food-icon" /></td>
+              <td>Burgers</td>
+              <td>₱55.00</td>
+            </tr>
+            <tr class="food-row">
+              <td><img src="chicken.png" class="food-icon" /></td>
+              <td>Fried chicken</td>
+              <td>₱55.00</td>
+            </tr>
+            <tr class="food-row">
+              <td><img src="spaghetti.png" class="food-icon" /></td>
+              <td>Spaghetti</td>
+              <td>₱55.00</td>
+            </tr>
+            <tr class="food-row">
+              <td><img src="pizza.png" class="food-icon" /></td>
+              <td>Pizza</td>
+              <td>₱150.00</td>
+            </tr>
+            <tr class="sub-heading">
+              <th colspan="3" class="text-center">Drinks</th>
+            </tr>
+            <tr class="food-row">
+              <td><img src="coke.png" class="food-icon" /></td>
+              <td>Coke</td>
+              <td>₱20.00</td>
+            </tr>
+            <tr class="food-row">
+              <td><img src="sprite.png" class="food-icon" /></td>
+              <td>Sprite</td>
+              <td>₱20.00</td>
+            </tr>
+            <tr class="food-row">
+              <td><img src="sarsi.gif" class="food-icon" /></td>
+              <td>Sarsi</td>
+              <td>₱20.00</td>
+            </tr>
+            <tr>
+              <td colspan="2" rowspan="2" id="sub-heading">
+                All items are subject to tax. No refunds. All items are not
+                transferable.
+              </td>
+              <td class="food-row">Extra rice - ₱20.00</td>
+            </tr>
+            <tr>
+              <td class="food-row">Condiments - ₱20.00</td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-lg-4">
+          <img
+            src="https://www.dellacasapasta.com/images/basil-sauce.png"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+    <div style="background-color: black">
+      <div class="container text-white pt-5">
+        <h1 class="display-2">Tell Us What You Think!</h1>
+        <div class="row">
+          <div class="col-lg-6">
+            <img
+              src="https://thumbs.dreamstime.com/b/cucumber-burger-ingredients-floating-black-background-isolated-vertical-cucumber-burger-ingredients-floating-bun-cheese-tomato-177814997.jpg"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-6">
+            <form>
+              <div class="form-group">
+                <label>Name (optional)</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Province (optional)</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group mt-3">
+                <label>How many times have you went to our restaurant?</label
+                ><br />
+                <input
+                  type="radio"
+                  name="times-visited"
+                  value="This is the first time!"
+                />This is the first time!<br />
+                <input
+                  type="radio"
+                  name="times-visited"
+                  value="Second time"
+                />Second time<br />
+                <input
+                  type="radio"
+                  name="times-visited"
+                  value="Third time or more"
+                />Third time or more<br />
+              </div>
+              <div class="form-group mt-3">
+                <label>How would you rate the food?</label><br />
+                <input type="radio" name="food-rating" value="1-star" />⭐
+                <input type="radio" name="food-rating" value="2-star" />⭐⭐
+                <input type="radio" name="food-rating" value="3-star" />⭐⭐⭐
+                <input type="radio" name="food-rating" value="4-star" />⭐⭐⭐⭐
+                <input
+                  type="radio"
+                  name="food-rating"
+                  value="5-star"
+                />⭐⭐⭐⭐⭐
+              </div>
+              <div class="form-group mt-3">
+                <label>How would you rate the services?</label><br />
+                <input type="radio" name="service-rating" value="1-star" />⭐
+                <input type="radio" name="service-rating" value="2-star" />⭐⭐
+                <input
+                  type="radio"
+                  name="service-rating"
+                  value="3-star"
+                />⭐⭐⭐
+                <input
+                  type="radio"
+                  name="service-rating"
+                  value="4-star"
+                />⭐⭐⭐⭐
+                <input
+                  type="radio"
+                  name="service-rating"
+                  value="5-star"
+                />⭐⭐⭐⭐⭐
+              </div>
+              <button type="submit" class="btn btn-primary mt-3">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <hr>
+        <div class="container">
+            <div class="row" id="footer">
+                <h6 class="text-center mt-5 my-5"> <span class="material-symbols-outlined">
+                    mail
+                    </span>E-Mail:<a href="#" target="_blank">Test@gmail.com</a> |<span class="material-symbols-outlined">
+                        call
+                        </span> Phone Number:<a href="#" target="_blank">09123456789</a></h6>
+            </div>
+        </div>
+        <div class="container text-center my-5 mt-5">
+            <span><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter me-2"></i></a></span>
+            <span><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f me-2 ms-2"></i></a></span>
+            <span><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube me-2 ms-2"></i></a></span>
+            <span><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram ms-2"></i></a></span>
+          </div>
+    </footer>
+  </body>
+</html>

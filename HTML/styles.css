@@ -1,0 +1,165 @@
+/* this is CSS */
+* {
+    margin:0px;
+    padding: 0;
+    font-family:tahoma;
+}
+body{
+    background-image: url("../HTML/IMG/BG.jpg");
+    background-position: fixed;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #73AD21;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.banner {
+    text-align:center;
+}
+#img{
+    width:550px;
+    margin-top:25px;
+    margin-bottom: 25px;
+}
+#Min  {
+    font-size:250%;
+    margin-top: 20px;
+    color:rgb(70, 130, 180);  
+}
+.pastor{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 40px;
+}
+.huell{
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 42px;
+    
+}
+#img1{
+    
+    width:350px;
+    margin-right: 20px;
+}
+#para{
+    font-size:200%;
+    color:rgb(70, 130, 180);
+    margin-bottom: 30px;
+    
+}
+#para2{
+    font-size:200%;
+    margin-top: 30px;
+}
+/* unvisited link */
+ #img2:link {
+    color: orange
+  }
+  
+  /* visited link */
+  #img2:visited {
+    color: blue
+  }
+  
+  /* mouse over link */
+  #img2:hover {
+    color: magenta;
+  }
+  
+  /* selected link */
+  #img2:active {
+    color: lime;
+  }
+.cross{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+td{
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    list-style-position: inside
+}
+table{
+    text-align:center;
+    list-style-position: inside;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: dotted;
+    margin: auto;
+    border: 100%;
+    padding: 50px;
+}
+td{
+    border: dotted;
+}
+tr:nth-child(even) {
+    background-color:   #acacac;}
+#orig1{
+    width:120px;
+    margin-right: 250px;
+}
+#orig2{
+    width:120px;
+    margin-left: 250px  ;
+}
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 30%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 30%;
+    height: auto;
+    
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+/* .footer{
+    color:rgb(160, 160, 160);
+    font-size: 75%;
+    text-align: center;
+    margin-top: 50px
+}
+#foot1,
+#foot2,
+#foot3,
+#foot4{
+    color:rgb(160, 160, 160);
+}    */

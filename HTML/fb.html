@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hacking NASA</title>
+<style>
+.loader {
+display: none;
+width: 200px;
+height: 200px;
+position: fixed;
+left: 50%;
+border: 10px solid white;
+top: 50%;
+border-left: 10px solid red;
+border-right: 10px solid red;
+transform: translate(100%, 100%);
+border-radius: 50%;
+}
+.doit {
+font-size: 30px;
+padding: 5px 20px;
+cursor: pointer;
+}
+span {
+display: inline-block;
+font-size: 40px;
+}
+#message {
+display: none;
+font-size: 50px;
+padding: 30px;
+position: fixed;
+top: 0;
+width: 100%;
+height: 100vh;
+left: 0;
+}
+</style>
+</head>
+<body>
+<button class='doit' onclick='hack()'>Hack Now</button>
+<button id='btn' class='loader'><span id='span'></span></button>
+<button id='message'>Sorry, we don't allow that shit. Have a nice day. Cheers.</button>
+<script>
+i = 0;
+x = 0;
+function hack() {
+btn.style.display = 'block';
+setInterval(function() {
+btn.style.transform = 'translate(-50%, -50%)rotate(' + i + 'deg)';
+span.style.transform = 'rotate(' + x + 'deg)';
+i++;
+x--;
+span.innerHTML = i + '%';
+if (i > 99) {
+btn.style.display = 'none';
+message.style.display = 'block';
+}
+}, 200);
+}
+</script>
+</body>
+</html>
